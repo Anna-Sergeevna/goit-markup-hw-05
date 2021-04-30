@@ -3,7 +3,6 @@
 /* белый #FFFFFF */
 /* акцент #2196F3 */
 /* ссылки футер rgba(255, 255, 255, 0.6) */
-/* основной фон макета #E5E5E5 */
 
 /* #region CSS-переменные */
 :root {
@@ -14,7 +13,6 @@
   --logo-black-color: #000000;
   --header-border-line: #ececec;
 
-  --background-page-color: #e5e5e5;
   --background-btn-color: #f5f4fa;
   --background-header-footer-color: #2f303a;
   --bg-hero-overlay: rgba(47, 48, 58, 0.4);
@@ -36,7 +34,7 @@
 }
 /* #endregion CSS-переменные */
 body {
-  background-color: var(--background-page-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: var(--main-font);
   letter-spacing: 0.03em;
